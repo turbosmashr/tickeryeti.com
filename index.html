@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticker Yeti</title>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="tickeryeti.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+	<h1>Ticker Yeti</h1>
+	<p>Enter Stock Ticker Symbol</p>
+		<form method='POST' id='ticker'>
+			<div class="form-group">
+				<input type="text" name="tickersymbol" id="tickersymbol">
+				<input type="submit" name="submit" class="btn btn-primary" id="submit" value='Yeti'>
+			</div>
+			<div class="form-group">
+					<div>
+						<input type="checkbox" name="yahoo" id="yahoocheck" checked>
+						<label for="yahoo">Yahoo Finance</label>
+					</div>
+					<div>
+						<input type="checkbox" name="seekingalpha" id="seekingalphacheck" checked>
+						<label for="seekingalphacheck">Seeking Alpha</label>
+					</div>
+					<div>
+						<input type="checkbox" name="sec" id="seccheck" checked>
+						<label for="seccheck">Securities & Echange Commission</label>
+					</div>
+					<div>
+						<input type="checkbox" name="google" id="googlecheck" checked>
+						<label for="googlecheck">Google Finance</label>
+					</div>
+					<div>
+						<input type="checkbox" name="finviz" id="finvizcheck" checked>
+						<label for="finvizcheck">Finviz</label>
+					</div>
+					<div>
+						<input type="checkbox" name="stanford" id="stanfordcheck" checked>
+						<label for="stanfordcheck">Stanford Securities Class Action Search</label>
+					</div>
+			</div>
+		</form>
+</div>
+
+</body>
+</html>
