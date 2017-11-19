@@ -13,40 +13,44 @@
 <body background="https://greatdivide.com/wp-content/uploads/2016/01/Yeti-himself-New-A.png">
 
 <div class="container">
+
 	<h1>Ticker Yeti</h1>
 	<p>Enter Stock Ticker Symbol</p>
-		<form method='POST' id='ticker'>
-			<div class="form-group">
-				<input type="text" name="tickersymbol" id="tickersymbol">
-				<input type="submit" name="submit" class="btn btn-primary" id="submit" value='Yeti'>
+
+	<form method='POST' id='ticker'>
+		<div class="form-group">
+			<input type="text" name="tickersymbol" id="tickersymbol">
+			<input type="submit" name="submit" class="btn btn-primary" id="submit" value='Yeti'>
+			<p class="help-block">Select financial resources below:</p>
+		</div>
+		<div class="form-group">
+			<div>
+				<label for="yahoo">Yahoo Finance</label>
+				<input type="checkbox" name="yahoo" id="yahoocheck" checked>
 			</div>
-			<div class="form-group">
-					<div>
-						<input type="checkbox" name="yahoo" id="yahoocheck" checked>
-						<label for="yahoo">Yahoo Finance</label>
-					</div>
-					<div>
-						<input type="checkbox" name="seekingalpha" id="seekingalphacheck" checked>
-						<label for="seekingalphacheck">Seeking Alpha</label>
-					</div>
-					<div>
-						<input type="checkbox" name="sec" id="seccheck" checked>
-						<label for="seccheck">Securities & Echange Commission</label>
-					</div>
-					<div>
-						<input type="checkbox" name="google" id="googlecheck" checked>
-						<label for="googlecheck">Google Finance</label>
-					</div>
-					<div>
-						<input type="checkbox" name="finviz" id="finvizcheck" checked>
-						<label for="finvizcheck">Finviz</label>
-					</div>
-					<div>
-						<input type="checkbox" name="stanford" id="stanfordcheck" checked>
-						<label for="stanfordcheck">Stanford Securities Class Action Search</label>
-					</div>
+			<div>
+				<label for="seekingalphacheck">Seeking Alpha</label>
+				<input type="checkbox" name="seekingalpha" id="seekingalphacheck" checked>
 			</div>
-		</form>
+			<div>
+				<label for="seccheck">Securities & Echange Commission</label>
+				<input type="checkbox" name="sec" id="seccheck" checked>
+			</div>
+			<div>
+				<label for="googlecheck">Google Finance</label>
+				<input type="checkbox" name="google" id="googlecheck" checked>
+			</div>
+			<div>
+				<label for="finvizcheck">Finviz</label>
+				<input type="checkbox" name="finviz" id="finvizcheck" checked>
+			</div>
+			<div>
+				<label for="stanfordcheck">Stanford Securities Class Action Search</label>
+				<input type="checkbox" name="stanford" id="stanfordcheck">
+			</div>
+		</div>
+	</form>
+
 </div>
 
 </body>
