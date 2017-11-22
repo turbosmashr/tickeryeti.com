@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ticker Yeti</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110081025-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-110081025-1');
+	</script>
+
 	<script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+  </script>
+
 	<script type="text/javascript" src="tickeryeti.js"></script>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  	<title>Ticker Yeti</title>
 
 </head>
 <body background="https://greatdivide.com/wp-content/uploads/2016/01/Yeti-himself-New-A.png">
@@ -42,8 +56,9 @@
 						<label for="finvizcheck">Finviz</label>
 					</div>
 					<div>
-						<input type="checkbox" name="stanford" id="stanfordcheck" checked>
-						<label for="stanfordcheck">Stanford Securities Class Action Search</label>
+						<input type="checkbox" name="stanford" id="stanfordcheck">
+						<!-- <label for="stanfordcheck">Stanford Securities Class Action Search</label> -->
+						<label for="stanfordcheck"><a href="http://securities.stanford.edu/filings.html">Stanford Securities Class Action Search</a></label>
 					</div>
 			</div>
 		</form>
