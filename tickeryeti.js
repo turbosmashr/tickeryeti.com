@@ -11,22 +11,22 @@ $(function(){
         var stanford = 'http://securities.stanford.edu/filings.html';
         var userEntry = $('#tickersymbol').val();
 
-        if (document.getElementById('yahoocheck').checked) {
+        if (document.getElementById('yahoocheck_tickeryeti').checked) {
             window.open(yahoo + userEntry, '_blank');
         }
-        if (document.getElementById('seekingalphacheck').checked) {
+        if (document.getElementById('seekingalphacheck_tickeryeti').checked) {
             window.open(seekingalphaA + userEntry + seekingalphaB, '_blank');
         } 
-        if (document.getElementById('seccheck').checked) {
+        if (document.getElementById('seccheck_tickeryeti').checked) {
             window.open(secA + userEntry + secB, '_blank');
         } 
-        if (document.getElementById('googlecheck').checked) {
+        if (document.getElementById('googlecheck_tickeryeti').checked) {
             window.open(google + userEntry, '_blank');
         }
-        if (document.getElementById('finvizcheck').checked) {
+        if (document.getElementById('finvizcheck_tickeryeti').checked) {
             window.open(finviz + userEntry, '_blank');
         } 
-        if (document.getElementById('stanfordcheck').checked) {
+        if (document.getElementById('stanfordcheck_tickeryeti').checked) {
             window.open(stanford, '_blank');
         }
         

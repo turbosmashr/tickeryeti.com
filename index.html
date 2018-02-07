@@ -10,59 +10,75 @@
 
 	  gtag('config', 'UA-110081025-1');
 	</script>
-
+	<!-- JQuery -->
 	<script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous">
   </script>
-
+	<!-- Magic -->
 	<script type="text/javascript" src="tickeryeti.js"></script>
-
+	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<!-- linked stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
-  	<title>Ticker Yeti</title>
+  	<title>TickerYeti</title>
 
 </head>
 <body background="https://greatdivide.com/wp-content/uploads/2016/01/Yeti-himself-New-A.png">
 
-<div class="container">
-	<h1>Ticker Yeti</h1>
-	<p>Enter Stock Ticker Symbol</p>
-		<form method='POST' id='ticker'>
-			<div class="form-group">
-				<input type="text" name="tickersymbol" id="tickersymbol">
-				<input type="submit" name="submit" class="btn btn-primary" id="submit" value='Yeti'>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6">
+				<h1>TickerYeti</h1>
+				<p>Enter Stock Ticker Symbol</p>
+				<form method='POST' id='ticker'>
+					<div class="form-group">
+						<input type="text" name="tickersymbol" id="tickersymbol">
+						<input type="submit" name="submit" class="btn btn-primary" id="submit" value='Yeti'>
+					</div>
+					<div class="form-group">
+						<div>
+							<input type="checkbox" name="yahoo_tickeryeti" id="yahoocheck_tickeryeti" checked>
+							<label for="yahoo_tickeryeti">Yahoo Finance</label>
+						</div>
+						<div>
+							<input type="checkbox" name="seekingalpha_tickeryeti" id="seekingalphacheck_tickeryeti" checked>
+							<label for="seekingalpha_tickeryeti">Seeking Alpha</label>
+						</div>
+						<div>
+							<input type="checkbox" name="sec_tickeryeti" id="seccheck_tickeryeti" checked>
+							<label for="sec_tickeryeti">Securities & Exchange Commission</label>
+						</div>
+						<div>
+							<input type="checkbox" name="google_tickeryeti" id="googlecheck_tickeryeti" checked>
+							<label for="google_tickeryeti">Google Finance</label>
+						</div>
+						<div>
+							<input type="checkbox" name="finviz_tickeryeti" id="finvizcheck_tickeryeti" checked>
+							<label for="finvizcheck_tickeryeti">Finviz</label>
+						</div>
+						<div>
+							<input type="checkbox" name="stanford_tickeryeti" id="stanfordcheck_tickeryeti">
+							<label for="stanfordcheck_tickeryeti"><a href="http://securities.stanford.edu/filings.html">Stanford Securities Class Action Search</a></label>
+						</div>
+					</div>
+				</form>
+				<p>
+					Love or hate something at TickerYeti? Do you have a suggestion to make it better?  <a href="mailto:chad@mountainstache.com?Subject=TickerYeti%20Feedback"target="_top">Email the owners!</a>
+				</p>
 			</div>
-			<div class="form-group">
-					<div>
-						<input type="checkbox" name="yahoo" id="yahoocheck" checked>
-						<label for="yahoo">Yahoo Finance</label>
-					</div>
-					<div>
-						<input type="checkbox" name="seekingalpha" id="seekingalphacheck" checked>
-						<label for="seekingalphacheck">Seeking Alpha</label>
-					</div>
-					<div>
-						<input type="checkbox" name="sec" id="seccheck" checked>
-						<label for="seccheck">Securities & Echange Commission</label>
-					</div>
-					<div>
-						<input type="checkbox" name="google" id="googlecheck" checked>
-						<label for="googlecheck">Google Finance</label>
-					</div>
-					<div>
-						<input type="checkbox" name="finviz" id="finvizcheck" checked>
-						<label for="finvizcheck">Finviz</label>
-					</div>
-					<div>
-						<input type="checkbox" name="stanford" id="stanfordcheck">
-						<!-- <label for="stanfordcheck">Stanford Securities Class Action Search</label> -->
-						<label for="stanfordcheck"><a href="http://securities.stanford.edu/filings.html">Stanford Securities Class Action Search</a></label>
-					</div>
-			</div>
-		</form>
-</div>
+			<div class="col-sm-3"></div>
+		</div>
+	</div>
+
+<!-- Designed by <a rel="nofollow" href="https://www.vecteezy.com">Vecteezy.com</a> -->
+
+<!-- Some Javascript Stuff -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>
