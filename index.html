@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+<html lang="en">
+  <head>
+  	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110081025-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -10,62 +10,89 @@
 
 	  gtag('config', 'UA-110081025-1');
 	</script>
-	<!-- JQuery -->
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous">
-  </script>
-	<!-- Magic -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="./images/tickeryeti_favicon.png"/>
+    <title>TickerYeti</title>
+  </head>
+
+  <body>
+  	<div class="container">
+	  	<nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #ffffff;">
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <a class="navbar-brand tickeryeti_brand" href="index.html"><img src="./images/tickeryeti_face_brand.png">TickerYeti</a>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		    	<li class="nav-item">
+		        	<a class="nav-link" href="#">Help</a>
+		      	</li>
+		      	<li class="nav-item">
+		      		<a class="nav-link" href="mailto:chad@mountainstache.com?Subject=MountainStache%20Contact">Contact</a>
+		      </li>
+		    </ul>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li class="nav-item">
+		      	<a class="navbar-brand" href="http://mountainstache.com"><img src="./images/mountainstache_brand.png"></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="interface">
+					<h4>Enter Stock Ticker Symbol</h4>
+					<form method='POST' id='ticker'>
+						<div class="form-group">
+							<input type="text" name="tickersymbol" id="tickersymbol">
+							<input type="submit" name="submit" class="btn btn-secondary" id="submit" value='Yeti'>
+						</div>
+						<div class="form-group">
+							<div>
+								<input type="checkbox" name="yahoo_tickeryeti" id="yahoocheck_tickeryeti" checked>
+								<label for="yahoo_tickeryeti">Yahoo Finance</label>
+							</div>
+							<div>
+								<input type="checkbox" name="seekingalpha_tickeryeti" id="seekingalphacheck_tickeryeti" checked>
+								<label for="seekingalpha_tickeryeti">Seeking Alpha</label>
+							</div>
+							<div>
+								<input type="checkbox" name="sec_tickeryeti" id="seccheck_tickeryeti" checked>
+								<label for="sec_tickeryeti">Securities & Exchange Commission</label>
+							</div>
+							<div>
+								<input type="checkbox" name="google_tickeryeti" id="googlecheck_tickeryeti" checked>
+								<label for="google_tickeryeti">Google Finance</label>
+							</div>
+							<div>
+								<input type="checkbox" name="finviz_tickeryeti" id="finvizcheck_tickeryeti" checked>
+								<label for="finvizcheck_tickeryeti">Finviz</label>
+							</div>
+							<div>
+								<input type="checkbox" name="stanford_tickeryeti" id="stanfordcheck_tickeryeti">
+								<label for="stanfordcheck_tickeryeti"><a class="link_color" href="http://securities.stanford.edu/filings.html">Stanford Securities Class Action Search</a></label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<img src="./images/tickeryeti_800x600.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    	<!-- Magic -->
 	<script type="text/javascript" src="tickeryeti.js"></script>
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
-  	<title>Ticker Yeti</title>
-
-</head>
-<body background="https://greatdivide.com/wp-content/uploads/2016/01/Yeti-himself-New-A.png">
-
-<div class="container">
-	<h1>Ticker Yeti</h1>
-	<p>Enter Stock Ticker Symbol</p>
-	<form method='POST' id='ticker'>
-		<div class="form-group">
-			<input type="text" name="tickersymbol" id="tickersymbol">
-			<input type="submit" name="submit" class="btn btn-primary" id="submit" value='Yeti'>
-		</div>
-		<div class="form-group">
-			<div>
-				<input type="checkbox" name="yahoo_tickeryeti" id="yahoocheck_tickeryeti" checked>
-				<label for="yahoo_tickeryeti">Yahoo Finance</label>
-			</div>
-			<div>
-				<input type="checkbox" name="seekingalpha_tickeryeti" id="seekingalphacheck_tickeryeti" checked>
-				<label for="seekingalpha_tickeryeti">Seeking Alpha</label>
-			</div>
-			<div>
-				<input type="checkbox" name="sec_tickeryeti" id="seccheck_tickeryeti" checked>
-				<label for="sec_tickeryeti">Securities & Echange Commission</label>
-			</div>
-			<div>
-				<input type="checkbox" name="google_tickeryeti" id="googlecheck_tickeryeti" checked>
-				<label for="google_tickeryeti">Google Finance</label>
-			</div>
-			<div>
-				<input type="checkbox" name="finviz_tickeryeti" id="finvizcheck_tickeryeti" checked>
-				<label for="finvizcheck_tickeryeti">Finviz</label>
-			</div>
-			<div>
-				<input type="checkbox" name="stanford_tickeryeti" id="stanfordcheck_tickeryeti">
-				<label for="stanfordcheck_tickeryeti"><a href="http://securities.stanford.edu/filings.html">Stanford Securities Class Action Search</a></label>
-			</div>
-		</div>
-	</form>
-	<p>
-		Love or hate something at TickerYeti? Do you have a suggestion to make it better?  <a href="mailto:chadryanklein@gmail.com?Subject=TickerYeti%20Feedback"target="_top">Email the owners!</a>
-	</p>
-</p>
-</div>
-
-</body>
+  </body>
 </html>
