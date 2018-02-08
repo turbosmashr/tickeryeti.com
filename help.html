@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" href="./images/tickeryeti_favicon.png"/>
-    <title>TickerYeti</title>
+    <title>TickerYeti | Help</title>
   </head>
 
   <body>
@@ -30,7 +30,7 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		    	<li class="nav-item">
-		        	<a class="nav-link" href="help.html">Help</a>
+		        	<a class="nav-link" href="index.html">Yeti</a>
 		      	</li>
 		      	<li class="nav-item">
 		      		<a class="nav-link" href="mailto:chad@mountainstache.com?Subject=MountainStache%20Contact">Contact</a>
@@ -45,49 +45,35 @@
 		</nav>
 	</div>
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-5">
-				<div class="interface">
-					<h4>Enter Stock Ticker Symbol</h4>
-					<form method='POST' id='ticker'>
-						<div class="form-group">
-							<input type="text" name="tickersymbol" id="tickersymbol">
-							<input type="submit" name="submit" class="btn btn-secondary" id="submit" value='Yeti'>
-						</div>
-						<div class="form-group">
-							<div>
-								<input type="checkbox" name="yahoo_tickeryeti" id="yahoocheck_tickeryeti" checked>
-								<label for="yahoo_tickeryeti">Yahoo Finance</label>
-							</div>
-							<div>
-								<input type="checkbox" name="seekingalpha_tickeryeti" id="seekingalphacheck_tickeryeti" checked>
-								<label for="seekingalpha_tickeryeti">Seeking Alpha</label>
-							</div>
-							<div>
-								<input type="checkbox" name="sec_tickeryeti" id="seccheck_tickeryeti" checked>
-								<label for="sec_tickeryeti">Securities & Exchange Commission</label>
-							</div>
-							<div>
-								<input type="checkbox" name="google_tickeryeti" id="googlecheck_tickeryeti" checked>
-								<label for="google_tickeryeti">Google Finance</label>
-							</div>
-							<div>
-								<input type="checkbox" name="finviz_tickeryeti" id="finvizcheck_tickeryeti" checked>
-								<label for="finvizcheck_tickeryeti">Finviz</label>
-							</div>
-							<div>
-								<input type="checkbox" name="stanford_tickeryeti" id="stanfordcheck_tickeryeti">
-								<label for="stanfordcheck_tickeryeti"><a class="link_color" href="http://securities.stanford.edu/filings.html">Stanford Securities Class Action Search</a></label>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-			<div class="col-lg-7">
-				<img src="./images/tickeryeti_800x600.png" class="img-fluid">
-			</div>
+		<div class="jumbotron jumbotron-fluid custom-jumbotron">
+			  <h1 class="display-3">I can't get this darn thing to work!</h1>
+			  <hr class="my-4">
+			  <h3>It's easy, here's how to Yeti:</h3>
+			  <p class="lead">Just put any stock ticker symbol in the box and hit 'Yeti'.  TickerYeti will open up new tabs for all of the ticker in each of the sources you selected.</P>
+			  <P class="lead"> You can un-check sources if you would prefer not to have those tabs open.  The Stanford Securities Class Action Lawsuit Search will not open a search for the ticker you selected, but if you check that option TickerYeti will open up the search homepage for you.  You can also click the link to the Stanford CALS site.</p>
+			  <p class="lead">
+			    <a class="btn btn-secondary btn-lg" href="index.html" role="button">Back to Yeti</a>
+			  </p>
+			  <hr class="my-4">
+			  <h3>It only opens one tab.  What gives?</h3>
+			  <p class="lead">Generally people dislike pop-ups from websites so most browsers these days try to help people by blocking them.  Sometimes while blocking pop-ups, the browser will think that TickerYeti is opening a bunch of them, and only allow the first one to open.  To fix this you will need to go into your browser settings and allow pop-ups from tickeryeti.com.</p>
+			  <p class="lead">Here's what you would do in Chrome Browser to allow pop-ups from TickerYeti:</p>
+				  <p class="text-center">Click the little red 'x' thingy on the far right side of the address bar.</p>
+				  <img src="./images/popup_end.jpg" class="img-fluid rounded mx-auto d-block">
+				  <p class="text-center">Now in the dropdown, select the radial button next to 'Always allow pop-ups from http://tickeryeti.com'</p>
+				  <img src="./images/popups_blocked.jpg" class="img-fluid rounded mx-auto d-block">
+				  <p class="text-center">Thenk click 'Done'!</p>
+				  <img src="./images/popups_done.jpg" class="img-fluid rounded mx-auto d-block">
+			  <p class="lead">If you don't have Chrome browser, you're making mistakes in your life.  You're on your own for figuring out how to stop blocking pop-ups from TickerYeti!  Godspeed.</p>
+			  <p class="lead">
+			    <a class="btn btn-secondary btn-lg" href="index.html" role="button">Back to Yeti</a>
+			  </p>
+			  <hr class="my-4">
 		</div>
 	</div>
+
+
+
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

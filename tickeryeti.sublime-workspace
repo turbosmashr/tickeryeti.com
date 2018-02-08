@@ -1,0 +1,475 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"co",
+				"col-sm-6"
+			],
+			[
+				"col",
+				"col-sm-3"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"down",
+				"download-link"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"resume",
+				"resume-text"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"seek",
+				"seekingalphaB"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"ticker",
+				"tickersymbol"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"Margin",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4701,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "help.html",
+			"settings":
+			{
+				"buffer_size": 2871,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "body {\n\t/*padding-top: 65px;*/\n\tbackground-color: #34a9df;\n\tcolor: white;\n}\n\n.tickeryeti_brand {\n\tcolor: #15485f;\n}\n\n.link_color {\n\tcolor: #15485f;\n}\n\n.interface {\n\tpadding-top: 70px;\n\tpadding-left: 50px;\n}\n\n.custom-checkbox {\n  border-radius: 50%;\n  height: 25px;\n  width: 25px;\n  background-color: #fff;\n  border: 1px solid #2c2b2c;\n}",
+			"file": "styles.css",
+			"file_size": 2684,
+			"file_write_time": 131625177549270924,
+			"settings":
+			{
+				"buffer_size": 336,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 59.0,
+		"last_filter": "color",
+		"selected_items":
+		[
+			[
+				"color",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 131.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/chad.klein/Development",
+		"/Users/chad.klein/Development/mountainstache"
+	],
+	"file_history":
+	[
+		"/Users/chad.klein/Development/tickeryeti/tickeryeti.js",
+		"/Users/chad.klein/Development/mountainstache/styles.css",
+		"/Users/chad.klein/Development/mountainstache/index.html",
+		"/Users/chad.klein/Development/tickeryeti/index.html",
+		"/Users/chad.klein/Development/tickeryeti/error.html",
+		"/Users/chad.klein/Development/tickeryeti/README.md",
+		"/Users/chad.klein/Development/mountainstache/resume.html",
+		"/Users/chad.klein/Development/mountainstache/index_1.html",
+		"/Users/chad.klein/Development/MountainStache.com/index.html",
+		"/Users/chad.klein/Desktop/zonar_data_samples/processed-fault-code-sample.json",
+		"/Users/chad.klein/Desktop/zonar_data_samples/processed-gps-sample.json",
+		"/Users/chad.klein/Desktop/Playoff Information",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-gps-sample[1].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-hard_brake_alerts-sample[3].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-idle_stops-sample[1].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-inspections-sample[1].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-posted_speed-sample[2].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-posted_speed-sample[1].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-hard_brake_alerts-sample[2].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-fault_codes-sample.json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-gps-sample.json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-idle_stops-sample.json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-inspections-sample.json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-posted_speed-sample.json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-hard_brake_alerts-sample[1].json",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/processed-hard_brake_alerts-sample.json",
+		"/Users/chad.klein/Development/SPFL/playoffs.html",
+		"/Users/chad.klein/Box Sync/Stock Website/tickeryeti.com/index.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/04_Navbars/navbars.html",
+		"/Users/chad.klein/Box Sync/Stock Website/tickeryeti.com/tickeryeti.js",
+		"/Users/chad.klein/Box Sync/Stock Website/tickeryeti.com/error.html",
+		"/Users/chad.klein/Box Sync/Stock Website/formrun.js",
+		"/Users/chad.klein/Box Sync/Stock Website/formrun_v2.js",
+		"/Users/chad.klein/Box Sync/Stock Website/form_v2.html",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/2mini-system-charts.widget/network.coffee",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/2mini-system-charts.widget/mem.coffee",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/2mini-system-charts.widget/disk.coffee",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/2mini-system-charts.widget/cpu.coffee",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/2mini-system-charts.widget/background.coffee",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/mini-system-charts.widget/network.coffee",
+		"/Users/chad.klein/Library/Application Support/Übersicht/widgets/authentic.widget/authentic.coffee",
+		"/Users/chad.klein/Downloads/swagger_login.yaml",
+		"/Users/chad.klein/Downloads/swagger_roadobjects.yaml",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/06_Grid/Note about making bootstrap responsive on mobile d",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/06_Grid/Note about Font-awesome",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/06_Grid/Note about Bootstrap Image Gallery Pt. 1",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/06_Grid/grid.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/Bootstrap/navbar.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/Bootstrap/basics.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit7/Bootstrap/basics.css",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/10_blog/myblog.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/10_blog/myblog.css",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/12_Blog_Solution/blog.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/12_Blog_Solution/blog.css",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/fotos.css",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit5/10_Selector_Exercise_Solution/solution.css",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/fotogrid.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit5/10_Selector_Exercise_Solution/solution.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/myblog",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/07_ImageBlog1/imageLinks.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit6/06_Tic_Tac_Toe_Solution/board.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit5/09_Selector_Exercise_Starter/selectorsExercise.html",
+		"/Users/chad.klein/Box Sync/UdemyCoursework/DeveloperBootcamp/Unit5/09_Selector_Exercise_Starter/selectors.css",
+		"/Users/chad.klein/Box Sync/Personal/UdemyCoursework/DeveloperBootcamp/Unit5/10_Selector_Exercise_Solution/solution.css",
+		"/Users/chad.klein/Desktop/Custom Reports",
+		"/Users/chad.klein/Desktop/FGA Update Call",
+		"/Users/chad.klein/Desktop/Draft Night Notes",
+		"/Users/chad.klein/Documents/Google Cloud Queries/fga_utilization.sql",
+		"/Users/chad.klein/Desktop/fga_example_reconcile.csv",
+		"/private/var/folders/vv/_rfmrqhs12xc777dgcj63fk1gdb1tl/T/com.microsoft.Outlook/Outlook Temp/Data[1].85c371be-1707-4fd7-94a4-227bdba7e1b9",
+		"/Users/chad.klein/Udemy Lectures/Section9-JSControlFlow/09Note about Intro to For Loops lecture",
+		"/Users/chad.klein/Udemy Lectures/Section9-JSControlFlow/04Note about Introduction to Loops lecture",
+		"/Users/chad.klein/Udemy Lectures/Section9-JSControlFlow/Conditionals Exercise SOLUTION",
+		"/Users/chad.klein/Udemy Lectures/Section7-Bootstrap/Note about making bootstrap responsive on mobile d",
+		"/Users/chad.klein/Udemy Lectures/Section7-Bootstrap/07Note about finding image source url from unsplash.",
+		"/Users/chad.klein/Udemy Lectures/Section7-Bootstrap/07Note about Font-awesome",
+		"/Users/chad.klein/Box Sync/Personal/UdemyCoursework/DeveloperBootcamp/Unit4/TablesPokemonExercise.html",
+		"/Users/chad.klein/Udemy Lectures/Section7-Bootstrap/02Section 7, Lecture 67",
+		"/Users/chad.klein/Udemy Lectures/Section 5/Note about Selectors Practice Exercise",
+		"/Users/chad.klein/Udemy Lectures/Section 6/07Note about Image Gallery Code Along Pt. 1"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2676,
+								2676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 809.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "help.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1665,
+								1665
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 328.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tickeryeti.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
